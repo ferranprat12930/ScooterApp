@@ -1,0 +1,50 @@
+
+<ion-header>
+
+</ion-header>
+
+
+<ion-content id="login" padding>
+	<div class="text-center">
+   		<img src="../../assets/imgs/logo-weeling.png" class="logoIni">
+   		<h1 class="titleIni">WEELING</h1>
+   	</div>
+        <form style="background-color: transparent;">
+            <ion-list>
+                <ion-item class="item-list">
+                <ion-avatar item-start>
+                    <img src="assets/imgs/contact.png">
+                </ion-avatar>
+                <ion-label stacked class="label-login">
+                    Usuario
+                </ion-label>
+                <ion-input type="text" name="name" style="background-color: transparent; color: #E24D4F; font-weight: bold;"></ion-input>
+                <!--
+                <ion-select [(ngModel)]="selectedWallet" [compareWith]="compareFn" name="selected_wallet" [disabled]="wallets.length == 0">
+                    <ion-option *ngFor="let selectedWallet of wallets" [value]="selectedWallet">{{selectedWallet.name}}
+                    </ion-option>
+                </ion-select>-->
+            </ion-item>
+                <ion-item class="item-list">
+                    <ion-avatar item-start>
+                    <img src="assets/imgs/password.png">
+                	</ion-avatar>
+                    <ion-label stacked class="label-login">
+                        Contraseña
+                    </ion-label>
+                    <ion-input type="password" name="password" style="background-color: transparent; color: #E24D4F;"></ion-input>
+                </ion-item>
+            </ion-list>
+            <button ion-button full block type="submit" class="btn-1" on-click="goToHome()">
+                Acceder
+            </button>
+        </form>
+    <div style="text-align: center;" class="default-padding">
+        
+        <button ion-button clear color="positive" block class="btn-1">
+            Registrarse
+        </button>
+    </div>
+</ion-content>
+
+<!--<img src="assets/img/waves.png" class="waves"/>-->

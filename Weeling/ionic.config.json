@@ -1,0 +1,7 @@
+{
+  "name": "Weeling",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
